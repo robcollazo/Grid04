@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+  --text-color-primary: #f1f5f9;
+  --text-color-secondary: #cbd5e1;
+
+  background: var(--bg-color);
+  font-family: Archivo;
+}
+
+nav {
+  display: flex;
+  padding: 20px 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color-primary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+
+#nav-menu {
+  display: flex;
+  gap: 8px;
+}
+
+#nav-logo a {
+  color: var(--brand-color-light);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+#nav-search {
+  display: flex;
+  gap: 8px;
+}
